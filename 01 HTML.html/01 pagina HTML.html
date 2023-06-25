@@ -145,15 +145,21 @@
             </tr>
         </table>
     </hgroup>
+    <br>
+    <br>
+
     <form action="consultasproductos.php" method="post">
+        <br>
         <fieldset>
-            <legend>Si tienes dudas sobre nuestros productos no dudes contactarnos</legend>
+            <legend><b>Si tienes dudas sobre nuestros productos no dudes contactarnos<b></b></legend>
             <label for="nombre">Ingrese su Nombre:</label>
-            <input type="texto" name="nombre" size="30" id="nombre"><br>
+            <input type="texto" name="nombre" size="30" id="nombre"><br><br>
             <label for="mail">Ingrese su mail:</label>
-            ><input type="text" name="mail" size="30" id="mail"><br>
-            <label for="consultas">Consultas</label> <br>
-            <textarea name="consulta" id="consultas" cols="60" rows="8"></textarea> <br>
+            <input type="text" name="mail" size="30" id="mail"><br><br>
+            <label for="telefono">Ingrese su Teléfono</label>
+            <input type="number" name="telefono" size="30" id="telefono"><br><br>   
+            <label for="consultas">Consultas</label>            
+            <textarea name="consulta" id="consultas" cols="80" rows="8"></textarea> <br>
             <input type="submit" value="Enviar">
         </fieldset>
     </form>
