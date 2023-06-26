@@ -73,7 +73,7 @@ header .logo{
 }
 
 header .container{
-    display: flex;  /*que */ 
+    display: flex;  /*que ES FLEXIBLE*/ 
     flex-direction: column;   /* p/establecer la dirección de los elementos secundarios en una columna vertical.*/
     align-items: center;
 }
